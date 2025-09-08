@@ -1,0 +1,43 @@
+public class infiniteArryPrblm {
+    public static void main(String[] args) {
+        int[] arr= {1,2,3,4,5,7,8,9,15};
+        int target = 15;
+        int ans = ans(arr, target);
+        System.out.println(ans);
+
+    }
+
+    static  int ans (int[] arr , int target){
+
+        int s = 0;
+        int e = 1;
+
+
+        while (target > arr[e]){
+            int newstart = e + 1;
+            e = e + (e-s+1)*2;
+            s = newstart;
+        }
+        return bsearch(arr, target, s, e);
+    }
+
+    static int bsearch(int[] arr, int target, int s , int e){
+
+
+
+        while (s<=e){
+            int mid = s+(e-s)/2;
+            if (arr[mid]==target){
+                return mid;
+            } else if (arr[mid]<target) {
+                s =mid+1;
+
+            }
+            else {
+                e=mid-1;
+
+            }
+        }
+        return -1;
+    }
+}

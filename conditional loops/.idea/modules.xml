@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/methods/Maze/Maze.iml" filepath="$PROJECT_DIR$/methods/Maze/Maze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methods/Maze/OOPS/OOPS.iml" filepath="$PROJECT_DIR$/methods/Maze/OOPS/OOPS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methods/arrays/arrays.iml" filepath="$PROJECT_DIR$/methods/arrays/arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conditional loops.iml" filepath="$PROJECT_DIR$/conditional loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methods/arrays/inheritance/inheritance.iml" filepath="$PROJECT_DIR$/methods/arrays/inheritance/inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loops/loops.iml" filepath="$PROJECT_DIR$/loops/loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patten/Mergesort/merge sort.iml" filepath="$PROJECT_DIR$/patten/Mergesort/merge sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methods/methods.iml" filepath="$PROJECT_DIR$/methods/methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patten/patten.iml" filepath="$PROJECT_DIR$/patten/patten.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methods/arrays/recurssion/recurssion.iml" filepath="$PROJECT_DIR$/methods/arrays/recurssion/recurssion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../searching/searching.iml" filepath="$PROJECT_DIR$/../searching/searching.iml" />
+      <module fileurl="file://$PROJECT_DIR$/switch statments/switch statments.iml" filepath="$PROJECT_DIR$/switch statments/switch statments.iml" />
+    </modules>
+  </component>
+</project>
