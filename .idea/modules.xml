@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LinkList/LinkList.iml" filepath="$PROJECT_DIR$/LinkList/LinkList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conditional loops/methods/Maze/Maze.iml" filepath="$PROJECT_DIR$/conditional loops/methods/Maze/Maze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conditional loops/patten/Mergesort/Mergesort.iml" filepath="$PROJECT_DIR$/conditional loops/patten/Mergesort/Mergesort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conditional loops/methods/Maze/OOPS/OOPS.iml" filepath="$PROJECT_DIR$/conditional loops/methods/Maze/OOPS/OOPS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conditional loops/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/conditional loops/Polymorphism/Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conditional loops/methods/arrays/arrays.iml" filepath="$PROJECT_DIR$/conditional loops/methods/arrays/arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conditional loops/conditional loops.iml" filepath="$PROJECT_DIR$/conditional loops/conditional loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conditional loops/methods/arrays/inheritance/inheritance.iml" filepath="$PROJECT_DIR$/conditional loops/methods/arrays/inheritance/inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java dsa practice.iml" filepath="$PROJECT_DIR$/.idea/java dsa practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conditional loops/loops/loops.iml" filepath="$PROJECT_DIR$/conditional loops/loops/loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conditional loops/methods/methods.iml" filepath="$PROJECT_DIR$/conditional loops/methods/methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conditional loops/patten/patten.iml" filepath="$PROJECT_DIR$/conditional loops/patten/patten.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conditional loops/methods/arrays/recurssion/recurssion.iml" filepath="$PROJECT_DIR$/conditional loops/methods/arrays/recurssion/recurssion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recurssion/recurssion2.iml" filepath="$PROJECT_DIR$/recurssion/recurssion2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/searching/searching.iml" filepath="$PROJECT_DIR$/searching/searching.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conditional loops/switch statments/switch statments.iml" filepath="$PROJECT_DIR$/conditional loops/switch statments/switch statments.iml" />
+    </modules>
+  </component>
+</project>
