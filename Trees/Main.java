@@ -7,5 +7,8 @@ public class Main {
         BinaryTree tree = new BinaryTree();
         tree.populate(scanner);
          tree.preetydisplay();
+         tree.preorder();
+         tree.Postorder();
+         tree.Postorder();
     }
 }
