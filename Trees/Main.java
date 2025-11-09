@@ -8,7 +8,7 @@ public class Main {
         tree.populate(scanner);
          tree.preetydisplay();
          tree.preorder();
-         tree.Postorder();
+         tree.Inorder();
          tree.Postorder();
     }
 }
