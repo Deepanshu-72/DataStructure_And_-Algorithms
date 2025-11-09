@@ -1,19 +1,20 @@
 public class Bst {
 
-    class Node{
+    class Node {
         private int value;
         private Node left;
         private Node right;
         private int height;
 
-        public Node(int value){
+        public Node(int value) {
             this.value = value;
         }
 
-        public int getValue(){
-            return  value;
+        public int getValue() {
+            return value;
         }
 
+    }
 
         private Node root;
 
@@ -34,7 +35,7 @@ public class Bst {
         }
 
         public void insert(int value){
-            return insert(root, value);
+            root = insert(root, value);
         }
 
         private Node insert(Node node, int value){
@@ -65,7 +66,7 @@ public class Bst {
         }
 
         public void populatedSorted(int[] nums) {
-            populatedSorted(nums, 0, nums.length);
+            populatedSorted(nums, 0, nums.length-1);
         }
 
         private void populatedSorted(int[] nums, int start, int  end){
@@ -91,8 +92,20 @@ public class Bst {
             return Math.abs(height(node.left) - height(node.right)) <= 1 && balanced(node.left) && balanced(node.right);
         }
 
+        public void display() {
+            display(this.root, "Root Node: ");
+        }
+
+        private void display(Node node, String details) {
+            if (node == null) {
+                return;
+            }
+            System.out.println(details + node.value);
+            display(node.left, "Left child of " + node.value + " : ");
+            display(node.right, "Right child of " + node.value + " : ");
+        }
 
 
 
-    }
+
 }
