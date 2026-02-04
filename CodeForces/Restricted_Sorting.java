@@ -17,15 +17,18 @@ public class Restricted_Sorting {
 
             Arrays.sort(b);
 
-            long ans = -1;
+            long ans = Integer.MAX_VALUE;
 
             for (int i = 0; i < n; i++) {
                 if (a[i] != b[i]) {
-                    ans = Math.max(ans, Math.abs(a[i] - b[i]));
+                    ans = Math.min(ans, Math.max(a[i] - b[0], b[n-1] - a[i]));
                 }
             }
+            if(ans == Integer.MAX_VALUE){
+                System.out.println(-1);
+            }else System.out.println(ans);
 
-            System.out.println(ans);
+
         }
     }
 }
